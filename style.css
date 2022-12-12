@@ -1,0 +1,598 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+}
+.head
+{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    border: 0;
+}
+
+
+
+.head img
+{
+    height: auto;
+    width: 100%;
+}
+
+.header
+{
+    position: relative;
+    border: 0;
+    margin-top: -680px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.head-img img
+{
+    height: 40px;
+    width: 140px;
+    margin-left: 50px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.head-select select
+{
+    height: 35px;
+    width: 100px;
+    position: relative;
+    margin-left: 800px;
+    border-radius: 5%;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid white;
+}
+
+.head-select select option
+{
+    background-color: #333;
+}
+
+.head-sign
+{
+    height: 25px;
+    width: 90px;
+    border: 1px solid ;
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5%;
+    background-color: #e50914;
+    border-color: #e50914;
+}
+.head-container
+{
+    height: auto;
+    width: 700px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 150px;
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+
+.head-container h1
+{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.head-container h2
+{
+    font-weight: lighter;
+}
+
+.head-container h3
+{
+    font-weight: lighter;
+}
+
+
+.head-email
+{
+    text-align: left;
+    display: flex;
+    font-weight: lighter;
+}
+.head-email input
+{
+    height: 55px;
+    width: 470px;
+  
+}
+
+.head-email a
+{
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.head-box
+{
+    height: 61px;
+    width: 229px;
+    background-color: #e50914; 
+    /* margin-top: -30px; */
+}
+
+.head-box p
+{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+/* ------------------------------- */
+
+.two
+{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-top: 15px;
+    
+}
+
+.two-one
+{
+    position: absolute;
+    border: 0;
+    height: 200px;
+    width: 500px;
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.two-one h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.two-one h2
+{
+    font-weight: lighter;
+}
+
+.two-video
+{
+
+    margin-left: 650px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+
+
+.two-two
+{
+    height: 400px;
+    width: 550px;
+   background-image: url(./Images/gif1.gif);
+   background-size: 400px;
+   background-repeat: no-repeat;
+   background-position: 75px 75px;
+    margin-left: 650px;
+    margin-top: 45px;
+    position:absolute;
+}
+.two-two img
+{
+    height: 400px;
+    width: 550px;
+}
+
+
+/* ------------------------------ */
+
+
+
+
+.three
+{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+}
+
+.three-one
+{
+    height: 400px;
+    width: 550px;
+    background-color: greenyellow;
+    margin-top: 70px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.three-one img
+{
+    height: 400px;
+    width: 550px;
+}
+
+.three-two
+{
+    height: 100px;
+    width: 360px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 110px;
+    background-color: rgba(0, 0, 0, 0.922);
+    border: 2px solid #333;
+    border-radius: 5%;
+    display: flex;
+}
+
+.three-two-img
+{
+   
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.three-two-img img
+{
+    height: 70px;
+    width: 55px;
+    position: relative; 
+}
+
+.three-three
+{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.three-three p
+{
+    margin-top: 2px;
+    font-weight: lighter;
+    color: rgb(21, 21, 250);
+}
+
+.three-text
+{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 120px;
+    font-weight: lighter;
+}
+
+.three-text h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.three-text h2
+{
+    font-weight: lighter;
+}
+
+
+/* --------------------------------- */
+
+
+.four
+{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    font-family: sans-serif;
+    
+}
+
+.four-one
+{
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.four-one h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.four-one h2
+{
+    font-weight: lighter;
+}
+
+.four-two
+{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+    background-image: url(./Images/gif2.gif);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 120px 40px;
+}
+
+
+
+
+/* -------------------------- */
+
+.five
+{
+    height: 530px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    font-family: sans-serif;
+    
+}
+
+.five-one
+{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.five-one img
+{
+    height: 400px;
+    width: 500px;
+}
+
+.five-two
+{
+    height: 300px;
+    width: 520px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+.five-two h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.five-two h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+
+/* ------------------------------------------ */
+
+.six
+{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    font-family: sans-serif;
+    
+}
+
+.six-one
+{
+    height: 800px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.six-two h1
+{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.six-two h2
+{
+    font-weight: lighter;
+}
+
+.six-three
+{
+    height: auto;
+    width: 800px;
+    font-family: sans-serif;
+    position: absolute;
+    text-align: left;
+}
+
+.six-four
+{
+    height: 75px;
+    width: 800px;
+    position: relative;
+    background-color: #303030;
+    margin-top: -13px;
+    text-align: left;
+}
+.six-four h2
+{
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    padding-top: 25px;
+    font-weight: lighter;
+}
+
+.six-four:hover
+{
+    cursor: pointer;
+}
+
+.six-five
+{
+    margin-top: 600px;
+    width: 650px;
+    margin-left: 75px;
+}
+
+.six-five h3
+{
+    font-weight: lighter;
+}
+
+.six-six
+{
+    text-align: left;
+    display: flex;
+}
+
+.six-six input
+{
+    width: 435px;
+    height: 55px;
+
+}
+
+.six-seven
+{
+    height: 61px;
+    width: 200px;
+    background-color: #e50914;
+}
+
+.six-seven h2
+{
+    margin-left: 20px;
+    position: absolute;
+    font-weight: lighter;
+}
+
+/* --------------------------------------------- */
+
+
+.seven
+{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    font-family: sans-serif;
+    
+}
+
+.seven-one
+{
+    height: auto;
+    width: 900px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 180px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.seven-one div h7 a
+{
+    color: grey;
+}
+
+.seven-one div h7 a:hover
+{
+    text-decoration: underline;
+}
+
+.seven-two
+{
+    height: auto;
+    width: 780px;
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.seven-three ul
+{
+    list-style: none;
+    display: block;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.seven-three ul a li
+{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+    color: grey;
+}
+
+.seven-three ul a li:hover
+{
+    text-decoration: underline;
+}
+
+.seven-four
+{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 180px;
+}
+
+.seven-four select
+{
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+} 
+
+.seven-four select option
+{
+    background-color: black;
+}
+
+.seven-four p
+{
+    color: grey;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
